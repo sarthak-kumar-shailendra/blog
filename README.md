@@ -23,4 +23,6 @@ To build a static HTML site for production:
 
 `$ npm run build`
 
+(This is run automatically by a GitHub Action whenever new commits are pushed to the main branch)
+
 **⚠️ Warning:** Site-wide assets from webthings.io (css, js, images and fonts) are duplicated in the `root/` directory in this repo for the purposes of viewing the blog standalone during development, but the real root assets are used in production. Any updates to the site-wide assets need to be synchronised between this repo and the [main site repo](https://github.com/WebThingsIO/webthingsio.github.io/).
